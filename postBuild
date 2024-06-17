@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e
+
+wget -q -P /tmp/ https://cloud.geo.tuwien.ac.at/s/37pgWntLCxWHGXD/download/cci-active-2022-julaug.zip
+unzip -n /tmp/cci-active-2022-julaug.zip -d ./data/ && rm /tmp/cci-active-2022-julaug.zip
